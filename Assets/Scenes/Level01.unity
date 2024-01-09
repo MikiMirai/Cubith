@@ -1512,7 +1512,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1613755095187466512}
     - target: {fileID: 8123023440535609586, guid: 9b90b7602f1f0a144b3979027c6b1110,
         type: 3}
       propertyPath: m_BackGroundColor.b
@@ -1627,6 +1627,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e724fca22db6114da575c61ed40b154, type: 3}
+--- !u!4 &1613755095187466512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3499151191661958199, guid: 3e724fca22db6114da575c61ed40b154,
+    type: 3}
+  m_PrefabInstance: {fileID: 1613755095187466511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2351856583944419200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1869,7 +1875,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1613755095187466512}
     - target: {fileID: 4485059709880619898, guid: 31914f5d4bafc984cb5a6590a94f7700,
         type: 3}
       propertyPath: m_Pivot.x
