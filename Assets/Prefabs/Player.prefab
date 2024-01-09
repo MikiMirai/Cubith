@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 9074632329446450190}
   - component: {fileID: 5319502915947097557}
   - component: {fileID: 6291716300985236052}
+  - component: {fileID: 8043314161872185655}
+  - component: {fileID: 7292840559842322075}
   - component: {fileID: 6274050331273128058}
   m_Layer: 0
   m_Name: Player
@@ -34,7 +36,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3432827320941792871}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2741588499227951759
@@ -112,7 +115,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!65 &5319502915947097557
 BoxCollider:
@@ -147,9 +150,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9e12f10057aab4e9a5503ad8bfe56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidBody: {fileID: 9074632329446450190}
-  forwardForce: 2400
-  sidewaysForce: 20
+  orientation: {fileID: 3499151191661958199}
+  moveSpeed: 10
+  airMultiplier: 0.04
+  autoMove: 1
+  walkSpeed: 20
+  sprintSpeed: 10
+  acceleration: 10
+  jumpForce: 12
+  wallRun: {fileID: 8043314161872185655}
+  groundDrag: 10
+  airDrag: 0
+  groundCheck: {fileID: 3432827320941792871}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  groundDistance: 0.5
+  playerDead: 0
+--- !u!114 &8043314161872185655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333842475975720895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f98d329422f764d8238eb24a9a3f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {fileID: 3499151191661958199}
+  wallDistance: 0.5
+  minimumJumpHeight: 1.5
+  wallRunGravity: 0.6
+  wallRunJumpForce: 1.5
+  cam: {fileID: 0}
+  fov: 90
+  wallRunfov: 100
+  wallRunfovTime: 10
+  camTilt: 10
+  camTiltTime: 10
+  isWallRunning: 0
+--- !u!114 &7292840559842322075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333842475975720895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74d29033a18e85458d39e57f336ecbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6274050331273128058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,3 +216,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 6291716300985236052}
+--- !u!1 &2605615659208775942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3432827320941792871}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3432827320941792871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605615659208775942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3499151191661958199}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
