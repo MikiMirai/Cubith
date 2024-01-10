@@ -2,9 +2,7 @@
  A very simple Unity project for learning.
 
 # Download: 
-<!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download 7z](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download 7z")](https://github.com/MikiMirai/Cubith/archive/latest.7z)
-<!-- END LATEST DOWNLOAD BUTTON -->
+![Static Badge](https://img.shields.io/badge/Download-Latest?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FMikiMirai%2FCubith%2Freleases%2Fdownload%2Flatest%2FCubith_v0.1.7z)
 
 # Controls:
 A and D to go Left and Right.
