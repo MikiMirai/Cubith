@@ -10,7 +10,7 @@
 A and D to go Left and Right.
 Space to jump.
 
-# Build yourself:
+# Build it yourself:
 1. Clone repo.
-2. Open with Unity Hub.
+2. Open with Unity 2022.3.16f1.
 3. File > Build Settings > "Build" button
