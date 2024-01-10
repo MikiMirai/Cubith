@@ -1,6 +1,10 @@
 # Cubith
  A very simple Unity project for learning.
 
+# Download: 
+<!-- BEGIN LATEST DOWNLOAD BUTTON -->
+<!-- END LATEST DOWNLOAD BUTTON -->
+
 # Controls:
 A and D to go Left and Right.
 Space to jump.
