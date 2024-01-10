@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_USER: "MikiMirai"
           REPO: "Cubith"
-          FORMAT: "zip"
+          FORMAT: "7z"
           VERSION: "${{ steps.get-latest-release.outputs.tag_name }}"
           COLOR: "blue"
           BEGIN_TAG: "<!-- BEGIN LATEST DOWNLOAD BUTTON -->"
