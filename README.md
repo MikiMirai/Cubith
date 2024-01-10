@@ -3,7 +3,7 @@
 
 # Download: 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/MikiMirai/Cubith/archive/demo.zip)
+[![Download 7z](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download 7z")](https://github.com/MikiMirai/Cubith/archive/latest.7z)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 # Controls:
