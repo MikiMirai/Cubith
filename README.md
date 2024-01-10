@@ -1,7 +1,7 @@
 # Cubith
  A very simple Unity project for learning.
 
-# ![Static Badge](https://img.shields.io/badge/Download-Latest-blue?style=flat) 
+# Download
 - Go to [Latest Release](https://github.com/MikiMirai/Cubith/releases), 
 - Download the Cubith_b*.7z file uner "Assets"
 - Extract and open Cubith.exe to play
