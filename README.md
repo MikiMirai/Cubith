@@ -1,8 +1,7 @@
 # Cubith
  A very simple Unity project for learning.
 
-# Download: 
-![Static Badge](https://img.shields.io/badge/Download-Latest?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FMikiMirai%2FCubith%2Freleases%2Fdownload%2Flatest%2FCubith_v0.1.7z)
+# ![Static Badge](https://img.shields.io/badge/Download-Latest?style=for-the-badge) : [Link](https://github.com/MikiMirai/Cubith/releases/download/latest/Cubith_v0.1.7z)
 
 # Controls:
 A and D to go Left and Right.
